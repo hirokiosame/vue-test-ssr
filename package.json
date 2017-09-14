@@ -1,0 +1,19 @@
+{
+  "name": "ssr-nuxt-test",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "Hiroki Osame <hiroki@weebly.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "nuxt": "1.0.0-rc8",
+    "test-component": "github:hirokiosame/vue-test-component"
+  }
+}
